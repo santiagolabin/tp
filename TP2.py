@@ -395,7 +395,7 @@ G_camioneta = nx.minimum_spanning_tree(
 
 print("\n")
 print("=" * 50)
-print("KRUSKAL - ÁRBOL DE EXPANSIÓN MÍNIMA")
+print("KRUSKAL - ÁRBOL RECUBRIDOR MÍNIMA")
 print("=" * 50)
 
 for u, v, datos in G_camioneta.edges(data=True):
@@ -413,7 +413,7 @@ for u, v, datos in G_camioneta.edges(data=True):
 #
 # 1) Grafo completo del sistema.
 # 2) Ruta mínima obtenida mediante Dijkstra.
-# 3) Árbol de expansión mínima obtenido mediante Kruskal.
+# 3) Árbol recubridor mínimo obtenido mediante Kruskal.
 #
 # Esto permite comparar visualmente los resultados
 # de ambos algoritmos sobre la misma red.
