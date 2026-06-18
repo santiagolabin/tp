@@ -395,7 +395,7 @@ G_camioneta = nx.minimum_spanning_tree(
 
 print("\n")
 print("=" * 50)
-print("KRUSKAL - ÁRBOL RECUBRIDOR MÍNIMA")
+print("KRUSKAL - ÁRBOL RECUBRIDOR MÍNIMO")
 print("=" * 50)
 
 for u, v, datos in G_camioneta.edges(data=True):
@@ -423,7 +423,7 @@ for u, v, datos in G_camioneta.edges(data=True):
 # Posiciones de los nodos
 pos = nx.spring_layout(G, seed=42)
 
-# Habilitar el siguiente código en caso de utilizar el tercer lote de datos y a su vez comentar la línea 342
+# Habilitar el siguiente código en caso de utilizar el tercer lote de datos y a su vez comentar la línea 424
 # pos = {
 #    "A": (0, 0),
 #
